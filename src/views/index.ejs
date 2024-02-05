@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>First Node Project</title>
+  <%- include("partials/head") %>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <%- include("partials/navigation") %>
+
+    <!-- MAIN CONTENT -->
+
+    <header class="hero row d-flex justify-content-center align-items-center p-0 m-0">
+      <div class="hero-secundary row d-flex justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="/img/unmsm.png" class="logo-unmsm m-auto animated bounceIn" alt="Website Logo UNMSM" />
+          <a href="/about" class="btn btn-primary w-25">About Us</a>
+        </div>
+        <section class="section-numeros d-md-none d-lg-block">
+          <div class="container mb-4">
+            <div class="row numeros-container justify-content-center">
+              <div class="col-6 mb-3 col-md-2 d-flex justify-content-start flex-column align-items-center">
+                <img src="/img/estadisticas-investigadores-pagina-web-unmsm.svg" alt="" class="sm-numeros">
+                <h2 class="text-sm fs-4 text-center text-uppercase fw-bold mb-0">
+                  2, 212
+                </h2>
+                <p class="text-center mb-0">
+                  Docentes <br>
+                  investigadores
+                </p>
+              </div>
+              <div class="col-6 mb-3 col-md-2 d-flex justify-content-start flex-column align-items-center">
+                <img src="/img/estadisticas-ranking-pagina-web-unmsm.svg" alt="" class="sm-numeros">
+                <h2 class="text-sm fs-4 text-center text-uppercase fw-bold mb-0">
+                  1° PUESTO
+                </h2>
+                <p class="text-center mb-0">
+                  a nivel nacional, según Webometrics
+                </p>
+              </div>
+              <div class="col-6 mb-3 col-md-2 d-flex justify-content-start flex-column align-items-center">
+                <img src="/img/estadisticas-primer-puesto-pagina-web-unmsm.svg" alt="" class="sm-numeros">
+                <h2 class="text-sm fs-4 text-center text-uppercase fw-bold mb-0">
+                  1° PUESTO
+                </h2>
+                <p class="text-center mb-0">
+                  en producción científica nacional
+                </p>
+              </div>
+              <div class="col-6 mb-3 col-md-2 d-flex justify-content-start flex-column align-items-center">
+                <img src="/img/estadisticas-carreras-pagina-web-unmsm.svg" alt="" class="sm-numeros">
+                <h2 class="text-sm fs-4 text-center text-uppercase fw-bold mb-0">
+                  66 CARRERAS
+                </h2>
+                <p class="text-center mb-0">
+                  de pregrado, en cinco áreas del conocimiento
+                </p>
+              </div>
+              <div class="col-6 mb-3 col-md-2 d-flex justify-content-start flex-column align-items-center">
+                <img src="/img/estadisticas-tesis-pagina-web-unmsm.svg" alt="" class="sm-numeros">
+                <h2 class="text-sm fs-4 text-center text-uppercase fw-bold mb-0">
+                  15, 158 TESIS
+                </h2>
+                <p class="text-center mb-0">
+                  digitales en nuestro repositorio
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </header>
+
+    <!-- section one -->
+    <div class="container-fluid h-100" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-md-4 offset-md-4">
+          <h3>La Decana de América</h3>
+          <p>
+            La Universidad Nacional Mayor de San Marcos (UNMSM) es una institución educativa de renombre y prestigio ubicada en Lima, Perú. Fundada el 12 de mayo de 1551, es reconocida como la universidad más antigua de América Latina y ha desempeñado un papel crucial en la historia y el desarrollo cultural del continente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+      <!-- JAVASCRIPT CDNS -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
